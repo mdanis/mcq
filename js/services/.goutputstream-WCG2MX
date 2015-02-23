@@ -1,0 +1,6 @@
+function print(jsonData)
+{
+	alert("JMD 111");
+	console.log("inside getJson"+jsonData);
+	return jsonData;
+}

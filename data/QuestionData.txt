@@ -1,0 +1,154 @@
+questionData = {
+    "title": "Q&A",
+    "Services": "Q&A",
+    "instructions": "Click on the button to run the Listening Test",
+    "type": "question",
+     "testType": "single",
+     "timeDuration":  20,
+      "level": 1,
+           
+    "data": [
+        {
+            "questiondata": {
+                "questionid": 2,
+                "questiontype": "Objective",
+                "questionmarks": "5",
+                "questionallowtime": null,
+                "explanatation": "",
+                "answerType": "single",
+                "question": "<span style='color:#000002;'>Hello how are you</span>"
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 3,
+                        "optiontext": "<span style='color:red;'> I am fine.</span>"
+                    },
+                    {
+                        "optionid": 4,
+                        "optiontext": "<span style='color:red;'> I am good.</span>"
+                    },
+                    {
+                        "optionid": 5,
+                        "optiontext": "<span style='color:red;'> I am better.</span>"
+                    },
+                    {
+                        "optionid": 6,
+                        "optiontext": "<span style='color:red;'> I am not fine.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 4,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "answerType": "single",
+                "explanatation": "The metal when heated first expands and when it is cooled it contracts. This is a property possessed by most of the metals and it is used in fixing of wooden wheel with a metal rim and at many other places as well.",
+                "question": "Whenever a metal is first heated and then cooled, it"
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 4,
+                        "optiontext": "first contracts and then expands."
+                    },
+                    {
+                        "optionid": 5,
+                        "optiontext": "first expands and then contracts."
+                    },
+                    {
+                        "optionid": 6,
+                        "optiontext": "first expands and melts.."
+                    },
+                    {
+                        "optionid": 7,
+                        "optiontext": "becomes hard and brittle."
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 176,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "answerType": "single",
+                "explanatation": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">When water changes into its vapours, the process is called evaporation. These vapours when cooled, change into water droplets. It is called condensation.</span>",
+                "question": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">The water vapours deposit as water droplets on a cooler plate covering the vessel by the process of</span>"
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 656,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">evaporation.</span>"
+                    },
+                    {
+                        "optionid": 657,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">melting.</span>"
+                    },
+                    {
+                        "optionid": 658,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">condensation.</span>"
+                    },
+                    {
+                        "optionid": 659,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">freezing.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 177,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "answerType": "single",
+                "explanatation": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">Digestion of food is an irreversible change. During digestion the food undergoes many chemical reactions and changes into new products. These new products cannot change into the original substances, so it is an irreversible change. </span>",
+                "question": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">Digestion of food is</span>"
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 660,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">periodic change.</span>"
+                    },
+                    {
+                        "optionid": 661,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">reversible change.</span>"
+                    },
+                    {
+                        "optionid": 662,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">irreversible change.</span>"
+                    },
+                    {
+                        "optionid": 663,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 9.0pt\">physical change.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 185,
+                "questiontype": "Subjective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": " ",
+                "question": "<font size=\"2\">What type of change is of Volcanic eruption?</font>"
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 689,
+                        "optiontext": "<font size=\"2\">Volcanic eruption is a chemical change because smoke, energy, etc are given out in this process.</font> "
+                    }
+                ]
+            }
+        }
+    ]
+}

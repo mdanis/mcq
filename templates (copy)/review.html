@@ -1,0 +1,33 @@
+<div class="topHeader">
+        <div class="heading_text">
+
+            <h2 class="mcq_main_head" ng-bind-html="testData.title | unsafe"></h2>
+        </div>
+        <img style="float:right; margin-top:div>0px; margin-bottom:8px;" ng-src="{{baseUrl}}/images/extramarks-logo.png" width="150" height="70">
+
+        <div class="clear">&nbsp;</div>
+    </div>
+
+      <div class="mcq-report-content  pop-up">
+         <div class="mcq-title">
+                <div class="mcq-head">MCQ Test : Review</div>
+                <div class="clear">&nbsp;</div>
+            </div>
+        <div id="review_content">
+
+            <div class="quest-cont" ng-repeat="item in reviewData">
+               <span id="cell" class="quest-num">{{$index+1}}</span>
+               <span class="quest-text ques_css" ng-bind-html="item.ques | unsafe"></span>
+               <span class="quest-text ques_option_css" >
+                   <p style="color:red;">Your answer : </p>
+                   <span ng-bind-html="item.ans | unsafe"></span>
+              
+ 
+            </div>
+        </div>
+        
+        <div class="mark-review">
+           <div class="review-res"><a href="javascript:void(0);" ng-click="closeReview()"><img ng-src="{{baseUrl}}/images/mcq/icon_back_to_review.png"> Back to Test  </a></div>
+	</div>
+     </div>
+       

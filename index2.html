@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link href="css/extramark.css" rel="stylesheet" type="text/css">
+<link href="css/assessment.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/externals/angular.js"></script>
+<script type="text/javascript" src="js/externals/angular-sanitize.js"></script>
+<script type="text/javascript" src="js/externals/angular-route.js"></script>
+<script type="text/javascript" src="js/externals/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/externals/underscore-min.js"></script>
+<script type="text/javascript" src="js/externals/charts.js"></script>
+
+
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="js/controllers/mainController.js"></script>
+<script type="text/javascript" src="js/controllers/testController.js"></script>
+<script type="text/javascript" src="js/controllers/reviewController.js"></script>
+<script type="text/javascript" src="js/controllers/reportController.js"></script>
+<script type="text/javascript" src="js/controllers/userAttemptedQuesController.js"></script>
+<script type="text/javascript" src="js/services/service.js"></script>
+<script type="text/javascript" src="js/services/mcqConst.js"></script>
+<script type="text/javascript" src="js/services/filter.js"></script>
+<script type="text/javascript" src="js/services/mcqInterface.js"></script>
+
+<script type="text/javascript" src="data/QuestionData.txt"></script>
+<script type="text/javascript" src="data/reportData.txt"></script>
+
+<script type="text/javascript" src="templates/1.html"></script>
+<script type="text/javascript" src="templates/test.html"></script>
+<script type="text/javascript" src="templates/review.html"></script>
+<script type="text/javascript" src="templates/report.html"></script>
+<script type="text/javascript" src="templates/userquestionattemptdetails.html"></script>
+				
+</head>
+<body>
+	
+</script>
+
+	
+     <div id ="innerContNotes" class="mcq-container">
+        <div  ng-app="mcqApp" ng-controller="mainController" >     
+            <div ng-view > </div>
+        </div>
+     </div>
+     
+     
+     <script type="text/ng-template" id="test.html">
+  
+    <div class="topHeader">
+        <div class="heading_text">
+
+            <h2 class="mcq_main_head" ng-bind-html="testData.title | unsafe"></h2>
+        </div>
+        <img style="float:right; margin-top:div>0px; margin-bottom:8px;" ng-src="{{baseUrl}}/images/extramarks-logo.png" width="150" height="70">
+
+        <div class="clear">&nbsp;</div>
+    </div>
+
+
+    <div class="mcq-view mcq-last-view" style="padding-bottom:0;">
+
+
+
+    </div>
+
+    <div class="mcq-test">
+        <!-- HEADER------>
+
+
+        <div id="headerDiv">
+
+            <div class="testInfo">
+
+                <div class="mcq-title">
+                    <div class="mcq-head" ng-switch on="testData.testType">
+
+                        <p ng-switch-when="multiple">MCT</p>
+                        <p ng-switch-when="practice">Practice Paper</p>
+                        <p ng-switch-default>Single Chapter Test - Level {{testData.level}}</p>
+                    </div>
+
+                    <div class="time-remain">Time Remaining: <span ID="remainpapertime">{{remainingTime}} min</span> 
+                    </div>
+                    <div class="total-marks" ng-switch on="testData.testType">Total Marks:
+
+                        <p ng-switch-when="multiple">20</p>
+                        <p ng-switch-when="practice">20</p>
+                        <p ng-switch-default>10</p>
+
+
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+
+            </div>
+            <div style="clear:both;"></div>
+            <div class="mcq-qust">
+                <span class="qust-head qust-unans">Questions : </span>
+                <ul class="questionIds">
+                    <li class="nav-li" ng-class=" {  disabled : navStatus[{{$index}}].disabled, skipped: navStatus[{{$index}}].skipped, active: navStatus[{{$index}}].active, attempted: navStatus[{{$index}}].attempted}" id="nav_{{$index}}" ng-click="showQuestion($index,$event)" ng-repeat="ques in testData.data">
+                        {{$index+1}}
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div style="clear:both;"></div>
+
+        <!-- QUESTION------>
+
+
+
+
+        <div id="ques_content" >
+            <div class="quest-cont">
+                <div id="cell" class="quest-num" ng-bind-html="(currentQuesIndex+1).toString() | unsafe"></div>
+                <div id="cell" class="quest-text ques_css" ng-bind-html="currentQues.questiondata.question | unsafe"></div>
+
+
+            </div>
+
+
+            <div class="mark-review">
+                <div class="mark-review-left">Mark: 1</div>
+                <div class="mark-review-right" ng-show="showReviewBtn" ng-click="showReview()"><a href="javascript:void(0);"><img ng-src="{{baseUrl}}/images/mcq/check_box_icon.png"> Review</a>
+                </div>
+            </div>
+
+
+
+
+
+            <div style="clear:both;"></div>
+            <ul class="questionOptList">
+                <li class="questionOpt" id="optLi_{{$index}}" ng-click="selectOption($event)" ng-repeat="optionList in currentQues.optiondata.options">
+                    <input type="radio" id="option_{{optionList.optionid}}" value="{{optionList.optionid}}" ng-model="optionValues" ng-if="currentQues.questiondata.answerType == 'single'" name="options"></input>
+                    <input type="checkbox" id="option_{{optionList.optionid}}" value="{{optionList.optionid}}" ng-model="optionValues" ng-if="currentQues.questiondata.answerType == 'multiple'" name="options"></input>
+                    
+                    <label for="option_{{optionList.optionid}}" class="subcheck-label ques_option_css"></label>
+                     <span ng-bind-html="optionList.optiontext | unsafe"></span>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- FOOTER------>
+
+        <div id="footerDiv">
+
+            <div class="quest-actions">
+                <a href="javascript:void(0);" class="prev" ng-disabled="{{prevBtnDisabled}}" ng-click="showPrevQ()"><img ng-src="{{baseUrl}}/images/mcq/button_prev.png" style="position:relative;
+                                                                                                                     top:20px;"></img></a>
+
+                <a class="continue" href="javascript:void(0);" ng-click="showResult()"><img style="position:relative;
+	top:4px;" ng-src="{{baseUrl}}/images/mcq/endtext_icon.jpg">End Test</a>
+
+
+                <a href="javascript:void(0);" ng-disabled="{{nextBtnDisabled}}" ng-click="showNextQ()" "><img ng-src="{{baseUrl}}/images/mcq/button_next.png" style="position:relative;
+	top:20px;"></img></a>
+
+
+                <div style="clear:both;"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="quest-tip">
+    <div class="attempt">
+        <div id="atmpt-box"></div>
+        <div id="atmt-text">Attempted</div>
+    </div>
+    <div class="skipped">
+        <div id="skip-box"></div>
+        <div id="skip-text">Skipped</div>
+    </div>
+    <div class="active">
+        <div id="act-box"></div>
+        <div id="act-text">Active</div>
+    </div>
+    <div class="clear">&nbsp;</div>
+</div>
+
+</script>
+
+
+
+<div id="reviewTemplate" style="display:none;">
+<div class="topHeader">
+        <div class="heading_text">
+
+            <h2 class="mcq_main_head" ng-bind-html="testData.title | unsafe"></h2>
+        </div>
+        <img style="float:right; margin-top:div>0px; margin-bottom:8px;" ng-src="{{baseUrl}}/images/extramarks-logo.png" width="150" height="70">
+
+        <div class="clear">&nbsp;</div>
+    </div>
+
+      <div class="mcq-report-content  pop-up">
+         <div class="mcq-title">
+                <div class="mcq-head">MCQ Test : Review</div>
+                <div class="clear">&nbsp;</div>
+            </div>
+        <div id="review_content">
+
+            <div class="quest-cont" ng-repeat="item in reviewData">
+               <span id="cell" class="quest-num">{{$index+1}}</span>
+               <span class="quest-text ques_css" ng-bind-html="item.ques | unsafe"></span>
+               <span class="quest-text ques_option_css" >
+                   <p style="color:red;">Your answer : </p>
+                   <span ng-bind-html="item.ans | unsafe"></span>
+              
+ 
+            </div>
+        </div>
+        
+        <div class="mark-review">
+           <div class="review-res"><a href="javascript:void(0);" ng-click="closeReview()"><img ng-src="{{baseUrl}}/images/mcq/icon_back_to_review.png"> Back to Test  </a></div>
+	</div>
+     </div>
+       
+
+</div>
+<div id="reportTemplate" style="display:none;">
+<div class="topHeader">
+        <div class="heading_text">
+                        <div class="fLeft ptop10"> 
+                         <div class="mcq_main_head" ng-switch on="reportData.testType">                
+                        <p ng-switch-when=""> {{reportData.title }} - Single Chapter Test</p>
+                        <p ng-switch-when="single">{{reportData.title }} - Single Chapter Test - Level {{ reportData.level}}</p>
+                        <p ng-switch-when="practice">{{reportData.title }} - Practice Paper</p>
+                        <p ng-switch-default>{{reportData.title }} - MCT</p>
+                    </div>
+                         
+                        </div>
+                        <div class="clear">&nbsp;</div>
+                    
+        </div>
+        <img style="float:right; margin-top:div>0px; margin-bottom:8px;" ng-src="{{baseUrl}}/images/extramarks-logo.png" width="150" height="70">
+
+        <div class="clear">&nbsp;</div>
+    </div>
+
+    <div class="mcq-report-content">
+   
+                
+                    
+                   
+                    <div class="mcq-view mcq-review">
+                    	<div class="mcq-title" ng-switch on="reportData.testType">
+                        <p ng-switch-when="multiple">MCT  Test Results</p>
+                        <p ng-switch-default>MCQ  Test Results</p>
+                    </div>
+                        <div class="mcq-svres-table">
+                            <div class="mcq-svres-cell">
+                                <img ng-src="{{baseUrl}}/images/mcq/time_image.png" width="68" height="68">
+                                <div class="mcq-svres-toptime">
+                                    <div class="mcq-svres-toptimerow">
+                                        <span>Total Time Allotted:</span>
+                                        <span>{{reportData.timeDuration}} mins</span>
+                                    </div>
+                                     <div class="mcq-svres-toptimerow">
+                                        <span>Time taken:</span>
+                                        <span>{{reportData.testResultData.timeTaken}} min</span>
+                                    </div>
+                                                                    </div>
+                            </div>
+                            <div class="mcq-svres-cell svres_responsive">
+                                <div class="mcq-svres-markcard">
+                                    <div class="mcq-svres-markcardc1">Your Performance is excellent. Please continue to the next level.</div><div class="mcq-svres-markcardc2">
+                                        <div class="top-mark">{{reportData.testResultData.correct}}</div>
+                                        <div class="bottom-mark">{{reportData.totalQuestions}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="singleview-res-cntr">
+                            <div class="singleview-res-cntr-child">
+                                <div class="singleview-res-cntr-left">
+                                    <div class="singleview-res-cntr-leftrow">
+                                        <div class="singleview-res-cntr-leftrowbox svres-bg-grey">Total Number of Questions</div><div class="singleview-res-cntr-leftrownum">{{reportData.totalQuestions}}</div>
+                                    </div>
+                                    <div class="singleview-res-cntr-leftrow">
+                                        <div class="singleview-res-cntr-leftrowbox svres-bg-grey">Attempted Questions</div><div class="singleview-res-cntr-leftrownum">{{reportData.testResultData.attempted}}</div>
+                                    </div>
+                                    <div class="singleview-res-cntr-leftrow">
+                                        <div class="singleview-res-cntr-leftrowbox svres-bg-green">Correct Answers</div><div class="singleview-res-cntr-leftrownum">{{reportData.testResultData.correct}}</div>
+                                    </div>
+                                    <div class="singleview-res-cntr-leftrow">
+                                        <div class="singleview-res-cntr-leftrowbox svres-bg-red">Wrong Answers</div><div class="singleview-res-cntr-leftrownum">{{reportData.testResultData.incorrect}}</div>
+                                    </div>
+                                    <div class="singleview-res-cntr-leftrow">
+                                        <div class="singleview-res-cntr-leftrowbox svres-bg-pink">Skipped Questions</div><div class="singleview-res-cntr-leftrownum">{{reportData.testResultData.skipped}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mcq-svres-div"><img ng-src="{{baseUrl}}/images/mcq/line_divider.png"></div>
+                            <div class="singleview-res-cntr-child singleview-res-cntr-rtchild">
+                                <canvas id="canvas" class="report-canvas" height="239" width="239"    style="width: 239px; height: 239px;"></canvas>
+                            </div>
+                        </div>
+                      <div class="progress-slider-container">
+                                <div for="progress-cont1" class="progress-slider-tooltip-hold">
+                                    <div class="progress-slider-tooltip"><span> {{reportData.testResultData.kupMax}} /{{reportData.testResultData.correct+reportData.testResultData.incorrect}}</span></div>
+                                </div>
+                                <div class="progress-slider-holder">
+                                    <div id="progress-cont1" class="progress-slider-cont" style="width: {{(reportData.testResultData.kupMax/(reportData.testResultData.correct+reportData.testResultData.incorrect)*100)}}%;"></div>
+                                </div>
+                                <div class="progress-slider-bottext">Knowledge/Understanding Proficiency</div>
+                            </div>
+                            <div class="progress-slider-container">
+                                <div for="progress-cont2" class="progress-slider-tooltip-hold">
+                                      <div class="progress-slider-tooltip"><span> {{reportData.testResultData.sapMax}} /{{reportData.testResultData.correct+reportData.testResultData.incorrect}}</span></div>
+                               </div>
+                                <div class="progress-slider-holder">
+                                    <div id="progress-cont2" class="progress-slider-cont" style="width: {{(reportData.testResultData.sapMax/(reportData.testResultData.correct+reportData.testResultData.incorrect)*100)}}%;"></div>
+                                </div>
+                                <div class="progress-slider-bottext">Skill/Application Proficiency</div>
+                            </div>
+                            <div class="clear">&nbsp;</div>
+                      
+                        <div class="mcq-svres-qa">
+                            <div class="mcq-svres-qatable">
+                                <div class="mcq-svres-qarow">
+                                    <div class="mcq-svres-qacell">Questions</div>
+                                    <div ng-repeat="ques in reportData.testdata">
+                  <div class="mcq-svres-qacell mcq-svres-{{ques.resultdata.status}}"><a href="javascript:void(0);" ng-click="showAttemptedQuestion($index);">{{$index+1}}</a></div> 
+                                    </div>
+                                    
+                                </div>
+                              
+                            </div>
+                           <div class="mcq-svres-qatable">
+                                <div class="mcq-svres-qacell">Answers</div>
+                             
+                                         <div ng-repeat="ques in reportData.testdata">
+                                <div class="mcq-svres-qacell">
+                                   <div ng-switch="ques.resultdata.orderIds.length" ng-bind-html="getUserAnswer($index) | unsafe">                                 
+                              </div>
+                                </div> 
+                                    </div>
+                            
+                                </div>
+                                </div>
+                        </div>
+                        
+                        
+                        
+						<div class="mark-review">
+                            <div class="review-res"><a href="javascript:void(0);" ng-click="closeResult();"><img ng-src="{{baseUrl}}/images/mcq/icon_back_to_review.png"> Close</a></div>
+			            </div>
+                         <div class="clear">&nbsp;</div>
+                    </div>
+                    <div class="clear">&nbsp;</div>
+        
+   
+   
+   
+   
+   
+   
+   
+     </div>
+     
+     
+     
+     <div id="userAttemptTemplate" style="display:none;">
+
+<div id="user-attempted-ques">
+                    <div class="topHeader">
+                        
+						<img style="float:right; margin-top:0px;" ng-src="{{baseUrl}}/images/extramarks-logo.png" width="150"; height="70";>
+                        <div class="fLeft ptop10">
+                               <div class="mcq_main_head" ng-switch on="data.testType">
+                           
+                        <p ng-switch-when=""> {{data.title }} - Single Chapter Test</p>
+                        <p ng-switch-when="single"> {{data.title }} - Single Chapter Test - Level {{ data.level}}</p>
+                        <p ng-switch-when="practice"> {{data.title }} - Practice Paper</p>
+                        <p ng-switch-default> {{data.title }} - MCT</p>
+                    </div>
+                         </div>
+                   
+                        <div class="clear">&nbsp;</div>
+                    </div>
+                 
+                    <div class="mcq-view mcq-review">
+                    	<div class="mcq-title">
+                        	<div class="mcq-head">MCQ</div>
+                            
+                            <div class="clear">&nbsp;</div>
+                        </div>
+                        
+                        <div class="quest-cont">
+                        	<div id="cell" class="quest-num">Q</div>
+                            <div id="cell" class="quest-text ques_css" ng-bind-html="data.questionDetails.questiondata.question | unsafe"></div>
+                            
+                        </div>
+                        
+                         <ul class="questionOptList">
+                <li class="questionOpt" id="optLi_{{$index}}"  ng-repeat="optionList in data.questionDetails.optiondata.options">
+                    
+                    <label for="option_{{optionList.optionid}}" class="subcheck-label ques_option_css"></label>
+                     <span ng-bind-html="optionList.optiontext | unsafe"></span>
+                </li>
+
+            </ul>
+                                    <div class="ques_option_css"><strong>Chapter Name:</strong> {{data.title}}</div>
+                                    <div>&nbsp;</div>
+                                <div class="ques_option_css your-ans" ng-bind-html ="getYourAns() | unsafe"></div>
+                                    <div>&nbsp;</div>
+                                <div class="ques_option_css correct-ans"  ng-bind-html ="getCorrectAns() | unsafe"> </div>
+                                <div>&nbsp;
+                                </div
+                               ><div class="ques_option_css"><strong>Explaination</strong> {{data.questionDetails.questiondata.explaination}}
+                                </div>
+                              
+                            </form>
+                        </div>
+			   
+                        <div class="clear">&nbsp;</div>                   
+                    </div>
+                    
+                </div><!--- rightcontent end -->
+        	
+			<div class="mark-review">
+                    <div class="review-res"><a href="javascript:void(0);" ng-click="closeWindow()" ><img ng-src="{{baseUrl}}/images/mcq/icon_back_to_review.png" /> Close</a></div>
+			</div>
+     </div>
+    <div class="clear">&nbsp;</div>
+
+
+     </div>
+</div>
+
+</body>
+</html>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+

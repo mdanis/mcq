@@ -1,0 +1,872 @@
+{
+    "title": "MCQ",
+    "Services": "MCQ",
+    "instructions": "Click on the button to run the Listening Test",
+    "type": "question",
+    "testType": "single",
+    "timeDuration": "20",
+    "level": "1",
+    "data": [
+        {
+            "questiondata": {
+                "questionid": 36620,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "answerType": "single",
+                "questionallowtime": null,
+                "explanatation": "<p><font size=\"2\">By multiplying the denominator of all these numbers with [LCM of 3,7,9,8]</font></p>\r\n<p><img class=\"\" height=\"325\" alt=\"\" width=\"688\" src=\"/stryde/uploadfiles/Image/20070712030277001184226871_060224(1).gif\" /></p>",
+                "question": "<font size=\"2\">The sum of least and greatest number, if  (-1/3), (3/7), (-8/9) <br />\r\n    and (5/8)  are arranged in ascending order will be</font> ",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118084,
+                        "optiontext": "(-19/72).",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118085,
+                        "optiontext": "<p>(-109/72).</p>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118086,
+                        "optiontext": "(109/72).",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118087,
+                        "optiontext": "<p>(19/72).</p>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118084,
+                        "answer": "(-19/72)."
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36621,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p><span style=\"10pt: \"><font size=\"2\">Since both numerator and denominator are negative (i.e., same sign). So,(-7)/(-29) </font></span><font size=\"2\"><span class=\"GramE\">is</span><span> a</span></font><font size=\"2\"><span style=\"10pt: \"> positive rational <span class=\"GramE\">number.</span></span></font></p>\r\n<p> </p>",
+                "question": "(-7)/(-29) is a",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118088,
+                        "optiontext": "negative rational number.",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118089,
+                        "optiontext": "positive rational number",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118090,
+                        "optiontext": "either positive or negative rational number",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118091,
+                        "optiontext": "neither positive nor negative rational number.",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118089,
+                        "answer": "positive rational number"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36623,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p style=\"margin-top: 0pt; margin-bottom: 0pt\"> </p>\r\n<p style=\"margin-top: 0pt; margin-bottom: 0pt\"><img class=\"\" height=\"73\" width=\"310\" alt=\"\" src=\"/stryde/uploadfiles/Image/20070712712023001184225921_291210K(3).gif\" /> </p>\r\n<font face=\"Verdana\"><span><img class=\"\" height=\"62\" alt=\"\" width=\"306\" src=\"/stryde/uploadfiles/Image/20070712712023001184225921_060220(1).gif\" /></span></font>\r\n<p> </p>\r\n<p style=\"margin-top: 0pt; margin-bottom: 0pt\"><font face=\"Verdana\"><span></span></font></p>\r\n<p style=\"margin-top: 0pt; margin-bottom: 0pt\"><span><font face=\"Verdana\">(terminating decimal)<span> </span>= 1.5<span> </span></font></span></p>\r\n<p style=\"margin-top: 0pt; margin-bottom: 0pt\"> </p>\r\n<p class=\"MsoNormal\" style=\"margin-top: 0pt; margin-bottom: 0pt; margin-left: 28.35pt; text-indent: -28.35pt\"><span></span></p>",
+                "question": "The value of  <img class=\"\" height=\"73\" width=\"87\" alt=\"\" src=\"/stryde/uploadfiles/Image/20070712712023001184225921_291210K1.GIF\" /> is",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118096,
+                        "optiontext": "an irrational number.",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118097,
+                        "optiontext": "<span style=\"10pt: \">a terminating decimal.</span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118098,
+                        "optiontext": "<span style=\"10pt: \"><span class=\"GramE\">an</span> integer.</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118099,
+                        "optiontext": "<span style=\"10pt: \">a natural number.</span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118097,
+                        "answer": "<span style=\"10pt: \">a terminating decimal.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36624,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<img class=\"\" height=\"170\" alt=\"\" width=\"764\" src=\"/stryde/uploadfiles/Image/20070712909126001184225646_060219(1).gif\" />\r\n<p> </p>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt\"><span></span></p>",
+                "question": "<font size=\"2\">The rationalising factor of <img class=\"\" height=\"32\" alt=\"\" width=\"64\" border=\"0\" v:shapes=\"_x0000_s1156\" src=\"/stryde/uploadfiles/Image/20070712909126001184225646_060219.gif\" /> is </font>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt; bold: \"><font size=\"2\"></font></p>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118100,
+                        "optiontext": "<span>27/9.</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118101,
+                        "optiontext": "<span><span class=\"GramE\">24/9.</span></span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118102,
+                        "optiontext": "<span>22/9.</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118103,
+                        "optiontext": "<span><span>28/9.</span></span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118100,
+                        "answer": "<span>27/9.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36626,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<span style=\"\"><font size=\"2\"><img src=\"/stryde/uploadfiles/mathimage/67.gif\" alt=\"\" />3 </font></span><span><img src=\"/stryde/uploadfiles/mathimage/78.gif\" alt=\"\" /></span><span style=\"10pt: \"><font size=\"2\"><img src=\"/stryde/uploadfiles/mathimage/67.gif\" alt=\"\" />3 = 3 is a whole number. <br />\r\nAll the other numbers are non terminating non-recurring decimals.</font></span>",
+                "question": "<font size=\"2\"><font size=\"5\">The number whch is not irrational will be</font></font>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118108,
+                        "optiontext": "<span><img src=\"/stryde/uploadfiles/mathimage/16.gif\" alt=\"\" />- 2.</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118109,
+                        "optiontext": "<span><span class=\"GramE\"><img src=\"/stryde/uploadfiles/mathimage/67.gif\" alt=\"\" />5 - <img src=\"/stryde/uploadfiles/mathimage/67.gif\" alt=\"\" />2.</span></span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118110,
+                        "optiontext": "<span><img src=\"/stryde/uploadfiles/mathimage/67.gif\" alt=\"\" />3 <img src=\"/stryde/uploadfiles/mathimage/78.gif\" alt=\"\" /><img src=\"/stryde/uploadfiles/mathimage/67.gif\" alt=\"\" />3.</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118111,
+                        "optiontext": "<p><span></span><span>2<img src=\"/stryde/uploadfiles/mathimage/16.gif\" alt=\"\" />- <img src=\"/stryde/uploadfiles/mathimage/67.gif\" alt=\"\" />5.</span></p>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118110,
+                        "answer": "<span><img src=\"/stryde/uploadfiles/mathimage/67.gif\" alt=\"\" />3 <img src=\"/stryde/uploadfiles/mathimage/78.gif\" alt=\"\" /><img src=\"/stryde/uploadfiles/mathimage/67.gif\" alt=\"\" />3.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36629,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p> </p>\r\n<p><span><img class=\"\" height=\"34\" width=\"446\" alt=\"\" src=\"/stryde/uploadfiles/Image/20070712620027001184223434_180202d.gif\" /></span></p>",
+                "question": "<font size=\"2\">The product of <img class=\"\" height=\"34\" width=\"117\" alt=\"\" src=\"/stryde/uploadfiles/Image/20070712620027001184223434_180202(1).gif\" /> is</font>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118120,
+                        "optiontext": "<span><img class=\"\" height=\"32\" width=\"49\" alt=\"\" src=\"/stryde/uploadfiles/Image/20070712620027001184223434_180202a(1).gif\" />.</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118121,
+                        "optiontext": "<span><span class=\"GramE\"><img class=\"\" height=\"32\" width=\"38\" alt=\"\" src=\"/stryde/uploadfiles/Image/20070712620027001184223434_18022b(1).gif\" />.</span></span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118122,
+                        "optiontext": "<span><img class=\"\" height=\"32\" width=\"40\" alt=\"\" src=\"/stryde/uploadfiles/Image/20070712620027001184223434_180202c.gif\" />.</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118123,
+                        "optiontext": "<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />11.",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118120,
+                        "answer": "<span><img class=\"\" height=\"32\" width=\"49\" alt=\"\" src=\"/stryde/uploadfiles/Image/20070712620027001184223434_180202a(1).gif\" />.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36630,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<font size=\"2\"><span><span>T</span></span><span><span>he numbers (4/7),(1/3),(2/5),(5/9)</span></span></font><font size=\"2\"><span><span> in ascending order are</span></span><span></span></font>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt\"><font size=\"2\"><span><span> (1/3)<(2/5)<(5/9)<(4/7)</span></span></font></p>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt\"><font size=\"2\"><span>Middle two numbers <span class=\"GramE\">are 2/5 and 5/9.</span></span></font></p>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt\"><font size=\"2\"><span><img alt=\"\" src=\"/stryde/uploadfiles/mathimage/75.gif\" />  <span class=\"GramE\">Average = [(2/5) + (5/9)]/2 = 43/90.</span></span></font></p>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt\"><font size=\"2\"><span></span></font></p>",
+                "question": "<font size=\"2\">The average of the middle two rational numbers if <br />\r\n       (4/7),(1/3),(2/5),(5/9) are arranged in ascending order is</font> \r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt; bold: \"><font size=\"2\"></font></p>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118124,
+                        "optiontext": "<span>(86/90).</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118125,
+                        "optiontext": "<span><span class=\"GramE\"><span dragover=\"true\">(86/45).</span></span></span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118126,
+                        "optiontext": "<span><span>(43/45).</span></span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118127,
+                        "optiontext": "<span>(43/90).</span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118127,
+                        "answer": "<span>(43/90).</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36631,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p>We have 3<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5 x 11<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5 = 3 x 11 (<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5 x <img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5) = 33 x 5 = 165.</p>",
+                "question": "<p>Multiply 3<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5 by 11<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5 equals to</p>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118128,
+                        "optiontext": "<p><span><span>33<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5.</span></span></p>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118129,
+                        "optiontext": "<p><span><span>11<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5.</span></span></p>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118130,
+                        "optiontext": "<p><span>3<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5.</span></p>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118131,
+                        "optiontext": "<p><span><span>165.</span></span></p>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118131,
+                        "answer": "<p><span><span>165.</span></span></p>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36632,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p><font size=\"2\"><span style=\"10pt: \">pie, was known to various cultures for thousands of years, it was <br />\r\nproved to be irrational by Lambert and Legendre only in the late<span> </span>1700s.<br />\r\n</span></font><font size=\"2\"><span style=\"10pt: \">It's value <span class=\"GramE\">is </span>3.142857142857... .</span></font></p>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt\"><font size=\"2\"><span></span></font></p>",
+                "question": "pie is",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118132,
+                        "optiontext": "rational.",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118133,
+                        "optiontext": "irrational.",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118134,
+                        "optiontext": "imaginary.",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118135,
+                        "optiontext": "an integer.",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118133,
+                        "answer": "irrational."
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36634,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p><span>(-3)/x = x/27</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt\"><span><span class=\"GramE\">x</span> . x = – 3 × 27</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt\"><span><span class=\"GramE\">x<span>2</span></span> = – 81 </span></p>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt\"><span>x = <img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />(-81)<span>, </span><span class=\"GramE\">x</span><span> is an irrational number.</span></span></p>",
+                "question": "If  (-3)/x = x/27 then x is ",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118140,
+                        "optiontext": "<span><span class=\"GramE\">a</span><span> rational number.</span></span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118141,
+                        "optiontext": "<span>an irrational number.</span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118142,
+                        "optiontext": "<span><span class=\"GramE\">an</span><span> integer.</span></span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118143,
+                        "optiontext": "<span>a natural number.</span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118141,
+                        "answer": "<span>an irrational number.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36635,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p><span style=\"font-size: 12pt; color: black; font-family: Verdana\"></span> </p>\r\n<p><img class=\"\" height=\"118\" width=\"544\" alt=\"\" src=\"/stryde/uploadfiles/Image/20070712515498001184219103 _060204(2).gif\" /></p>\r\n<p> </p>",
+                "question": "<p><img class=\"\" height=\"78\" width=\"824\" alt=\"\" src=\"/stryde/uploadfiles/Image/20070712515498001184219103 _060204(1).gif\" /></p>\r\n<p class=\"MsoNormal\" style=\"margin-left: 28.35pt; text-indent: -28.35pt\"> </p>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118144,
+                        "optiontext": "0.",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118145,
+                        "optiontext": "1.",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118146,
+                        "optiontext": "2.",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118147,
+                        "optiontext": "4.",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118146,
+                        "answer": "2."
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36636,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p><img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />2= 1.4141 ; <img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />3 = 1.732 ; <img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5 = 2.236 ; <img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />11 = 3.356. </p>",
+                "question": "<p>The irrational number between 2 and 3 is</p>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118148,
+                        "optiontext": "<p><img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />2.</p>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118149,
+                        "optiontext": "<p><img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />3.</p>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118150,
+                        "optiontext": "<p><img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5.</p>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118151,
+                        "optiontext": "<p><img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />11.</p>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118150,
+                        "answer": "<p><img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />5.</p>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36637,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p><font size=\"2\"><span>(<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />2 + <img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />3)2 = 5 + 2<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />6 is an irrational number.</span></font></p>\r\n",
+                "question": "The number (<img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />2 + <img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" />3)2 is",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118152,
+                        "optiontext": "a rational number.",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118153,
+                        "optiontext": "an irrational number.",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118154,
+                        "optiontext": "a whole number.",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118155,
+                        "optiontext": "an integer.",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118153,
+                        "answer": "an irrational number."
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36962,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p>The decimal expansion of a rational number is either terminating or non terminating recurring. Moreover, a number whose decimal expansion is terminating or non-terminating is rational.</p>",
+                "question": "<span style=\"font-size: 10pt; font-family: Verdana\">Any number whose decimal expansion is terminating or non terminating is called </span>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118897,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">integer .</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118898,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">natural number .</span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118899,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">rational number.</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118900,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">whole number.</span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118899,
+                        "answer": "<span style=\"font-size: 10pt; font-family: Verdana\">rational number.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36963,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<img class=\"\" height=\"112\" alt=\"\" width=\"258\" src=\"/stryde/uploadfiles/Image/20081014680326001223983252_301012q.gif\" />",
+                "question": "<span>The sum of  3<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" />3+7<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">5and<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3+4<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span>5 is equal to </span>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118901,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">6+11<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">5.</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118902,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">4<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3 +11<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">5.</span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118903,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">3<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">5+3 <img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">7 .</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118904,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">4<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3 + 5<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">11.</span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118902,
+                        "answer": "<span style=\"font-size: 10pt; font-family: Verdana\">4<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3 +11<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">5.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 36964,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p><span style=\"font-size: 10pt; font-family: Verdana\"><span style=\"font-size: 10pt; font-family: Verdana\"><img class=\"\" height=\"77\" width=\"469\" alt=\"\" src=\"/stryde/uploadfiles/Image/20081014657128001223983292_20108q(1).gif\" /></span></span></p>",
+                "question": "<span style=\"font-size: 10pt; font-family: Verdana\">Difference of 4<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3+5<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">7 and 2<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3 – 3<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">7 is equal to</span><span style=\"font-size: 10pt; font-family: Verdana\"> </span>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 118905,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">2<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3+8<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">7.</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 118906,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">2<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3+ 2<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">7.</span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 118907,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">6<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3- 2<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">7 .</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 118908,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">2<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3+5<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">7.</span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 118905,
+                        "answer": "<span style=\"font-size: 10pt; font-family: Verdana\">2<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3+8<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">7.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 37168,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">Explanation: Since ‘Zero’ can be written in the form of p/q, where q<img alt=\"\" src=\"/extramarks/FCK/editor/images/smiley/msn/30.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">0. eg 0/1 or 0/2.</span>",
+                "question": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">‘Zero’ is </span>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 119376,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">a rational number.</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 119377,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">an irrational number.</span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 119378,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">a natural number.</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 119379,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">a non-terminating non-recurring number.</span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 119376,
+                        "answer": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">a rational number.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 37169,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt\">Rational number between 3 and 4 is given as<br />\r\n</span><span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt\"> </span><span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\"><span style=\"mso-spacerun: yes\">                                      </span>(3+4)/2 = 7/2.</span>",
+                "question": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">A rational number between 3 and 4 is</span>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 119380,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">3/2.</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 119381,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">5/2.</span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 119382,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">7/2.</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 119383,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">9/2.</span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 119382,
+                        "answer": "<span style=\"font-size: 10pt; font-family: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New Roman'\">7/2.</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 37183,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<p><img width=\"284\" height=\"62\" class=\"\" alt=\"\" src=\"/stryde/uploadfiles/Image/20081014482715001223983368_20109q(1).gif\" /></p>",
+                "question": "<span style=\"font-size: 10pt; font-family: Verdana;\">If we divide 9</span><span style=\"font-size: 10pt; font-family: Verdana\"><img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana;\">12 by </span><span style=\"font-size: 10pt; font-family: Verdana\"><img src=\"/stryde/uploadfiles/mathimage/67.gif\" alt=\"\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3</span><span style=\"font-size: 10pt; font-family: Verdana\">, the result is </span>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 119433,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">12 .</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 119434,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\">8 .</span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 119435,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana\"> 6 .</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 119436,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana;\">3</span><span style=\"font-size: 10pt; font-family: Verdana\"><img alt=\"\" src=\"/stryde/uploadfiles/mathimage/67.gif\" /></span><span style=\"font-size: 10pt; font-family: Verdana\">3 .</span><span style=\"font-size: 10pt; font-family: Verdana\"> </span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 119435,
+                        "answer": "<span style=\"font-size: 10pt; font-family: Verdana\"> 6 .</span>"
+                    }
+                ]
+            }
+        },
+        {
+            "questiondata": {
+                "questionid": 37209,
+                "questiontype": "Objective",
+                "questionmarks": "1",
+                "questionallowtime": null,
+                "explanatation": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt\">Since<span style=\"mso-spacerun: yes\">    </span>5/7 = 0.714285714285…<br />\r\n</span><span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt\"><span style=\"mso-spacerun: yes\">          </span>9/11 = 0.818181…</span><span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt\"><br />\r\n</span><span style=\"font-size: 10pt; font-family: Symbol; mso-bidi-font-size: 12.0pt\"><img src=\"/extramarks/FCK/editor/images/smiley/msn/75.gif\" alt=\"\" /><span style=\"font: 7pt \"Times New Roman\"\">       </span></span><span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt\">Irrational number between 5/7 and 9/11 is 0.72072007200072… <br />\r\nwhich is<span style=\"mso-spacerun: yes\"> </span></span><span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'\">non-terminating non-recurring.<span style=\"mso-spacerun: yes\">  </span></span>",
+                "question": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'\">An irrational number between 5/7 and 9/11 is</span>",
+                "ques_difficulty": 1
+            },
+            "optiondata": {
+                "options": [
+                    {
+                        "optionid": 119537,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'\">0.27027002700027…</span>",
+                        "anstype": "ans1"
+                    },
+                    {
+                        "optionid": 119538,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'\">0.72072007200072…</span>",
+                        "anstype": "ans2"
+                    },
+                    {
+                        "optionid": 119539,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'\">0.72072007207200…</span>",
+                        "anstype": "ans3"
+                    },
+                    {
+                        "optionid": 119540,
+                        "optiontext": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'\">0.720720720720…</span>",
+                        "anstype": "ans4"
+                    }
+                ]
+            },
+            "rightanswerdata": {
+                "rightanswer": [
+                    {
+                        "answerid": 119538,
+                        "answer": "<span style=\"font-size: 10pt; font-family: Verdana; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'\">0.72072007200072…</span>"
+                    }
+                ]
+            }
+        }
+    ]
+}

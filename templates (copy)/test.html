@@ -1,0 +1,145 @@
+
+     <div>  
+    <div class="topHeader">
+        <div class="heading_text">
+
+            <h2 class="mcq_main_head" ng-bind-html="testData.title | unsafe"></h2>
+        </div>
+        <img style="float:right; margin-top:div>0px; margin-bottom:8px;" ng-src="{{baseUrl}}/images/extramarks-logo.png" width="150" height="70">
+
+        <div class="clear">&nbsp;</div>
+    </div>
+
+
+    <div class="mcq-view mcq-last-view" style="padding-bottom:0;">
+
+
+
+    </div>
+
+    <div class="mcq-test">
+        <!-- HEADER------>
+
+
+        <div id="headerDiv">
+
+            <div class="testInfo">
+
+                <div class="mcq-title">
+                    <div class="mcq-head" ng-switch on="testData.testType">
+
+                        <p ng-switch-when="multiple">MCT</p>
+                        <p ng-switch-when="practice">Practice Paper</p>
+                        <p ng-switch-default>Single Chapter Test - Level {{testData.level}}</p>
+                    </div>
+
+                    <div class="time-remain">Time Remaining: <span ID="remainpapertime">{{remainingTime}} min</span> 
+                    </div>
+                    <div class="total-marks" ng-switch on="testData.testType">Total Marks:
+
+                        <p ng-switch-when="multiple">20</p>
+                        <p ng-switch-when="practice">20</p>
+                        <p ng-switch-default>10</p>
+
+
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+
+            </div>
+            <div style="clear:both;"></div>
+            <div class="mcq-qust">
+                <span class="qust-head qust-unans">Questions : </span>
+                <ul class="questionIds">
+                    <li class="nav-li" ng-class=" {  disabled : navStatus[{{$index}}].disabled, skipped: navStatus[{{$index}}].skipped, active: navStatus[{{$index}}].active, attempted: navStatus[{{$index}}].attempted}" id="nav_{{$index}}" ng-click="showQuestion($index,$event)" ng-repeat="ques in testData.data">
+                        {{$index+1}}
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div style="clear:both;"></div>
+
+        <!-- QUESTION------>
+
+
+
+
+        <div id="ques_content" >
+            <div class="quest-cont">
+                <div id="cell" class="quest-num" ng-bind-html="(currentQuesIndex+1).toString() | unsafe"></div>
+                <div id="cell" class="quest-text ques_css" ng-bind-html="currentQues.questiondata.question | unsafe"></div>
+
+
+            </div>
+
+
+            <div class="mark-review">
+                <div class="mark-review-left">Mark: 1</div>
+                <div class="mark-review-right" ng-show="showReviewBtn" ng-click="showReview()"><a href="javascript:void(0);"><img ng-src="{{baseUrl}}/images/mcq/check_box_icon.png"> Review</a>
+                </div>
+            </div>
+
+
+
+
+
+            <div style="clear:both;"></div>
+            <ul class="questionOptList">
+                <li class="questionOpt" id="optLi_{{$index}}" ng-click="selectOption($event)" ng-repeat="optionList in currentQues.optiondata.options">
+                    <input type="radio" id="option_{{optionList.optionid}}" value="{{optionList.optionid}}" ng-model="optionValues" ng-if="currentQues.questiondata.answerType == 'single'" name="options"></input>
+                    <input type="checkbox" id="option_{{optionList.optionid}}" value="{{optionList.optionid}}" ng-model="optionValues" ng-if="currentQues.questiondata.answerType == 'multiple'" name="options"></input>
+                    
+                    <label for="option_{{optionList.optionid}}" class="subcheck-label ques_option_css"></label>
+                     <span ng-bind-html="optionList.optiontext | unsafe"></span>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- FOOTER------>
+
+        <div id="footerDiv">
+
+            <div class="quest-actions">
+                <a href="javascript:void(0);" class="prev" ng-disabled="{{prevBtnDisabled}}" ng-click="showPrevQ()"><img ng-src="{{baseUrl}}/images/mcq/button_prev.png" style="position:relative;
+                                                                                                                     top:20px;"></img></a>
+
+                <a class="continue" href="javascript:void(0);" ng-click="showResult()"><img style="position:relative;
+	top:4px;" ng-src="{{baseUrl}}/images/mcq/endtext_icon.jpg">End Test</a>
+
+
+                <a href="javascript:void(0);" ng-disabled="{{nextBtnDisabled}}" ng-click="showNextQ()" "><img ng-src="{{baseUrl}}/images/mcq/button_next.png" style="position:relative;
+	top:20px;"></img></a>
+
+
+                <div style="clear:both;"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+<div class="quest-tip">
+    <div class="attempt">
+        <div id="atmpt-box"></div>
+        <div id="atmt-text">Attempted</div>
+    </div>
+    <div class="skipped">
+        <div id="skip-box"></div>
+        <div id="skip-text">Skipped</div>
+    </div>
+    <div class="active">
+        <div id="act-box"></div>
+        <div id="act-text">Active</div>
+    </div>
+    <div class="clear">&nbsp;</div>
+</div>
+
+
+
+
